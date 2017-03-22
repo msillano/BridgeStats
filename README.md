@@ -13,7 +13,9 @@ This evaluation is done trying to make the best use of all available information
 
 The 'Bridge Stats' app examines all possible distributions of the cards of one suit in the opponent hands and calculates  their  probabilities.
 
-![stats](./img/device01.png)  ![score](./img/device04.png)
+![stats](./img/device01.png)          ![score](./img/device04.png)
+
+
 'Bridge Stat' provides:
 -   the probability of each individual distribution
 -   the probabilities grouped by number of cards
