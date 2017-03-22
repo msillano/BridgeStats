@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">Bridge Stats</string>
+    <string name="title_activity_main">Bridge Statistics</string>
+    <string name="NSdistri">N-S Distribution:</string>
+    <string name="go_button_text">go</string>
+    <string name="NScard">N-S cards</string>
+    <string name="EWcard">E-W cards</string>
+    <string name="Ecard">E cards</string>
+    <string name="ERRmsg1">N-S min.</string>
+    <string name="ERRmsg2">5 cards!</string>
+    <string name="statistics">statistics</string>
+    <string name="east">East</string>   
+    <string name="useZAD">Using ZHP (0-52)</string>   
+    <string name="useHCP">Using HCP (0-40)</string>   
+    <string name="useBP">Using BP (0-60)</string>   
+    <string name="emptyHand">-------------</string>
+    <string name="stats_text">E-W Statistics</string> 
+    <string name="listcard">cards</string> 
+    
+    <string name="title_section1">Statistics</string>   
+    <string name="title_section2">Scores</string>  
+    <string name="button_nt">nt</string>
+    <string name="vuln">Vulnerable</string>
+    <string name="nVuln">Love</string>
+    <string name="svuln">V</string>
+    <string name="snvuln">nV</string>
+    <string name="zerodec">1C : 7</string>
+    <string name="declare">Contract</string>
+    <string name="fatte">Won tricks</string>
+    <string name="scores">MATCH POINTS</string>
+    <string name="stats">STATISTICS</string>
+    <string name="mscores">SCORES</string>
+    <string name="mstats">STATS</string>
+    <string name="hcards">High Card</string>
+    <string name="use101">Uses ..,-1,0,+1,.. for won tricks</string>
+    <string name="use013">Uses 0..13 for won tricks</string>
+    <string name="contre">X</string>
+    <string name="scontre">xx</string>
+    <string name="dechp">for Russian MP (RMP)</string>
+    <string name="adv">Adv. Vul.</string>
+    <string name="dechp2">declarer</string>
+    
+</resources>

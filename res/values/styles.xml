@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <color name="keyred">#ff0000</color>
+    <color name="bkgray">#c0c0c0</color> 
+    <drawable name="bkgray">#c0c0c0</drawable>
+    <color name="azul">#99CCFF</color>
+   
+    
+</resources>

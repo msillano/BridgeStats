@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="title_activity_main">Statistiche Bridge</string>
+    <string name="NSdistri">Distribuzione N-S</string>
+    <string name="go_button_text">ok</string>
+    <string name="NScard">Carte N-S</string>
+    <string name="EWcard">Carte E-O</string>
+    <string name="Ecard">Carte E</string>
+    <string name="ERRmsg1">N-S almeno</string>
+    <string name="ERRmsg2">5 carte!</string>  
+    <string name="east">Est</string>   
+    <string name="useZAD">Usa punti ZHP</string>   
+    <string name="useHCP">Usa punti HCP</string>   
+    <string name="useBP">Usa punti BP</string>       
+    <string name="statistics">statistiche</string>    
+    <string name="stats_text">Statistiche E-O</string>
+    <string name="listcard">carte</string> 
+    
+    <string name="title_section1">Statistiche</string>   
+    <string name="title_section2">Punteggio</string>  
+    <string name="button_nt">SA</string>
+    <string name="vuln">in Zona</string>
+    <string name="nVuln">in Prima</string>
+    <string name="zerodec">1F : 7</string>
+    <string name="declare">Contratto</string>
+    <string name="fatte">Prese fatte</string>
+    <string name="scores">PUNTEGGIO</string>
+    <string name="stats">STATISTICHE</string>
+    <string name="mscores">PUNTI</string>
+    <string name="mstats">STATS</string>
+    <string name="hcards">Punti Onori</string>
+    <string name="use101">Usa ..,-1,0,+1,.. per le prese fatte</string>
+    <string name="use013">Usa 0..13 per le prese fatte</string>
+    <string name="contre">!</string>
+    <string name="scontre">!!</string>
+    <string name="dechp">per MP russi (RMP)</string>
+    <string name="adv"> Avv. Vul.</string>
+   <string name="dechp2">dichiarante</string>
+     
+    
+    
+     <string name="svuln">V</string>
+    <string name="snvuln">nV</string>
+    
+    
+</resources>

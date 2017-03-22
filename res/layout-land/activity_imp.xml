@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bridge IMP PORTRAIT -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/impLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="120dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/res_margin"
+                    android:layout_marginRight="@dimen/res_margin"
+                    android:layout_marginTop="@dimen/res_margin"
+                    android:paddingLeft="5dip"
+                    android:background="@android:color/white"
+                    android:text="@string/zerodec" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/res_margin"
+                        android:text="IMP:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextViewP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="2dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="60dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/res_margin"
+                        android:gravity="right"
+                        android:text=" MP:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/res_margin"
+                        android:paddingLeft="2dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="60dip"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="RMP:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextViewP2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="2dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/res_margin"
+                android:layout_marginTop="1dip"
+                android:text="@string/declare"
+                android:textAppearance="@android:style/TextAppearance.WindowTitle"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:orientation="horizontal"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <ToggleButton
+                android:id="@+id/ToggleButton01"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="bid"
+                android:textOff="1"
+                android:textOn="1"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton02"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="bid"
+                android:textOff="2"
+                android:textOn="2"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton03"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="bid"
+                android:textOff="3"
+                android:textOn="3"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton04"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="bid"
+                android:textOff="4"
+                android:textOn="4"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton05"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="bid"
+                android:textOff="5"
+                android:textOn="5"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton06"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="bid"
+                android:textOff="6"
+                android:textOn="6"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton07"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="bid"
+                android:overScrollMode="always"
+                android:textOff="7"
+                android:textOn="7"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <ToggleButton
+                android:id="@+id/ToggleButton11"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="suit"
+                android:textOff="♣"
+                android:textOn="♣"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton12"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="suit"
+                android:textColor="@color/keyred"
+                android:textOff="♦"
+                android:textOn="♦"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton13"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="suit"
+                android:textColor="@color/keyred"
+                android:textOff="♥"
+                android:textOn="♥"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton14"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="suit"
+                android:textOff="♠"
+                android:textOn="♠"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton15"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="suit"
+                android:textOff="@string/button_nt"
+                android:textOn="@string/button_nt"
+                android:textSize="@dimen/keys" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton16"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="risk"
+                android:textOff="@string/contre"
+                android:textOn="@string/contre"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton17"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:onClick="risk"
+                android:textOff="@string/scontre"
+                android:textOn="@string/scontre"
+                android:textSize="@dimen/keys"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:gravity="top|left"
+            android:orientation="horizontal" >
+
+            <ToggleButton
+                android:id="@+id/ToggleButtonX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/adv"
+                android:textOn="@string/adv"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="updateNV"
+                android:layout_marginTop="5dip"
+                android:text="@string/nVuln" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="updateV"
+                android:layout_marginTop="5dip"
+                android:text="@string/vuln" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- second column -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="50dip"
+            android:gravity="center"
+            android:text="@string/fatte"
+            android:textAppearance="@android:style/TextAppearance.WindowTitle"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="44dip"
+            android:background="@drawable/back_shape"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip" >
+
+            <Button
+                android:id="@+id/buttonDT"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/up_shape"
+                android:gravity="center"
+                android:onClick="doPD"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewY"
+                android:layout_width="30dip"
+                android:layout_height="40dip"
+                android:layout_margin="4dip"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/text_medium" />
+
+            <Button
+                android:id="@+id/buttonUT"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/up_shape"
+                android:gravity="center"
+                android:onClick="doPU"
+                android:text="+"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextViewP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="12dip"
+            android:text="@string/dechp"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:text="@string/dechp2"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/TextViewPnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:text="HPC"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="44dip"
+            android:background="@drawable/back_shape"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip" >
+
+            <Button
+                android:id="@+id/buttonD"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/up_shape"
+                android:gravity="center"
+                android:onClick="doD"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewX"
+                android:layout_width="30dip"
+                android:layout_height="40dip"
+                android:layout_margin="4dip"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="@dimen/text_medium" />
+
+            <Button
+                android:id="@+id/buttonU"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/up_shape"
+                android:gravity="center"
+                android:onClick="doU"
+                android:text="+"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

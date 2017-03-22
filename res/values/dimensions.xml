@@ -1,0 +1,8 @@
+<resources>  
+    <dimen name="half_margin">5dip</dimen>
+    <dimen name="res_margin">10dip</dimen>
+    <dimen name="table_body_size">18dip</dimen>
+    <dimen name="zero">0dip</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="keys">18sp</dimen>    
+</resources>
