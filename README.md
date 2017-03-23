@@ -13,7 +13,7 @@ This evaluation is done trying to make the best use of all available information
 
 The 'Bridge Stats' app examines all possible distributions of the cards of one suit in the opponent hands and calculates  their  probabilities.
 
-![stats](./img/device01.png)          ![score](./img/device04.png)
+  ![score](./img/device04.png)
 
 
 'Bridge Stat' provides:
@@ -21,3 +21,8 @@ The 'Bridge Stats' app examines all possible distributions of the cards of one s
 -   the probabilities grouped by number of cards
 -  the probabilities grouped by score. using HCP or ZHP and BP
 -  the score of one played hand, in MP, IMP and RMP
+
+Install
+-   Download BridgeStats.apk
+-   Copy it in the download dir of an Android smarphone or tablet.
+-   Click on it from some file application.
