@@ -1,5 +1,5 @@
 # bridgeStats
-For Bridge players: calculates scores and statistics
+App for Bridge players: calculates scores and statistics
 
 "Now the general who wins a battle makes many calculations in his temple before the battle is fought. 
 The general who loses a battle makes but few calculations beforehand. 
@@ -19,8 +19,8 @@ The 'Bridge Stats' app examines all possible distributions of the cards of one s
 'Bridge Stat' provides:
 -   the probability of each individual distribution
 -   the probabilities grouped by number of cards
--  the probabilities grouped by score. using HCP or ZHP and BP
--  the score of one played hand, in MP, IMP and RMP
+-   the probabilities grouped by score. using HCP or ZHP and BP
+-   the score of one played hand, in MP, IMP and RMP
 
 Install
 -   Download BridgeStats.apk
